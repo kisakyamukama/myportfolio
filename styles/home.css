@@ -85,12 +85,14 @@ html, body {
     margin: 0 0 40px 0; 
 }
 
-
+.space {
+  padding: calc(1% + 1vh);
+}
 .responsive {
     width: 90%;
     max-width: 400px;
     height: auto;
-    max-height: 80%;
+    /* max-height: 80%; */
   }
 
   .responsive2 {
@@ -115,7 +117,7 @@ html, body {
   .boldgrey {
       /* font-weight: bold; */
       color: gray;
-      font-size: calc(50% + 1vw );
+      font-size: calc(40% + 1vw );
   }
   
   .smallText{
@@ -153,9 +155,7 @@ html, body {
 
 
 /* what is pamoja section  */
-/* #aboutapp {
-    height:90%;
-} */
+
 .v {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
@@ -195,7 +195,7 @@ html, body {
   }
 
   .responsiveFullHeight {
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     height: auto;
   }
@@ -286,13 +286,14 @@ html, body {
     /* position: relative; */
     /* display: flex; */
     /* width: 350px; */
+    min-height: 18em;
+    max-height: 18em;
     flex-direction: column;
-    min-width: 0;
     word-wrap: break-word;
     background-color: #fff;
     /* background-clip: border-box; */
     /* border: 1px solid #d2d2dc; */
-    border-radius: 11px;
+    /* border-radius: 11px; */
     -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
     -moz-box-shadow: 0px 0px 5px 0px rgb(155, 154, 155);
     box-shadow: 0px 0px 5px 0px rgb(250, 251, 252)
